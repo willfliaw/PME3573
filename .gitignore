@@ -1,5 +1,8 @@
 # Dados experimentais
 E01/data/*
 
+# Miscelânea
+*.old
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
