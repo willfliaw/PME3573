@@ -49,7 +49,7 @@ Na seção de [Passo a passo](#passo-a-passo) a seguir, pressupõe-se, por parte
    2. Pela instalação individual das dependências necessárias:
 
       ```bash
-       conda create -n dataScience -c conda-forge python ipykernel jupyter matplotlib numpy pandas SciencePlots seaborn tqdm
+       conda create -n dataScience -c conda-forge python ipykernel jupyter matplotlib numpy pandas SciencePlots seaborn tqdm sqlalchemy
       ```
 
 ## Uso
