@@ -15,7 +15,7 @@ Neste diretório do Repositório PME3573, documentam-se as atividades realizadas
 
 ## Introdução
 
-Para iniciar os alunos da Disciplina PME3573, foi proposto pelo docente Walter Ponge-Ferreira, exercício de análise de dados referentes à epidemia de *Severe acute respiratory syndrome coronavirus* (SARS-Cov-19). Nesse viés propõe-se o estudo de dois bancos de dados e elaboração de relatório acadêmico dele resultante.
+Para iniciar os alunos da Disciplina PME3573, foi proposto pelo docente Walter Ponge Ferreira, exercício de análise de dados referentes à epidemia de *Severe acute respiratory syndrome coronavirus* (SARS-Cov-19). Nesse viés propõe-se o estudo de dois bancos de dados e elaboração de relatório acadêmico dele resultante.
 
 Aqui, o presente diretório funciona como resposta do Autor William Liaw ao exercício proposto. Elaborou-se, assim, código computacional na linguagem Python 3 o qual pode ser encontrado no arquivo [`E01-William Liaw.ipynb`](./E01-William%20Liaw.ipynb), um *Jupyter Notebook*.
 
@@ -35,9 +35,9 @@ O não atendimento de todas as três condições acima impedirá a execução e 
 
 Registro de casos e óbitos por município e data de notificação no Estado de São Paulo.
 
-| Arquivo                                         | Descrição                                             |
-|:-----------------------------------------------:|:-----------------------------------------------------:|
-| `./data/20230418_Casos-e-obitos-ESP.csv`        | [`./metadata/Dic.-dados_dados_covid_municipios_sp.pdf`](./metadata/Dic.-dados_dados_covid_municipios_sp.pdf) |
+|                 Arquivo                  |                                                  Descrição                                                   |
+| :--------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+| `./data/20230418_Casos-e-obitos-ESP.csv` | [`./metadata/Dic.-dados_dados_covid_municipios_sp.pdf`](./metadata/Dic.-dados_dados_covid_municipios_sp.pdf) |
 
 Ao longo deste trabalho, apelidará-se este banco de dados de **COMuDa**.
 
@@ -45,8 +45,8 @@ Ao longo deste trabalho, apelidará-se este banco de dados de **COMuDa**.
 
 Base de dados com registros individualizados e anonimizados, detalhados com os seguintes campos: Notificações, Evolução, Confirmação do caso para COVID-19, Idade, Gênero, Doenças Preexistentes, Sintomas, Raça/Cor, Etnia, Município, Profissionais de Saúde.
 
-| Arquivo                                         | Descrição                             |
-|:-----------------------------------------------:|:-------------------------------------:|
+|                     Arquivo                     |                                  Descrição                                   |
+| :---------------------------------------------: | :--------------------------------------------------------------------------: |
 | `./data/20230418_dados_covid_municipios_sp.csv` | [`./metadata/Dic-dados_microdados.pdf`](./metadata/Dic-dados_microdados.pdf) |
 
 Ao longo deste trabalho, apelidará-se este banco de dados de **MiCa**.

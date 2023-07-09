@@ -40,23 +40,40 @@ Na seção de [Passo a passo](#passo-a-passo) a seguir, pressupõe-se, por parte
 
 3. Para executar, testar e contribuir com o material do projeto aqui presente, convém a criação de um ambiente virtual (*virtual environment*). Para tanto, existem diversas formas, dentre as quais se destacam:
 
-   1. Via arquivo `environment.yml`:
+   - Para o Exercício 01:
 
-      ```bash
-      conda env create --name dataScience --file ./environment.yml
-      ```
+     1. Via arquivo `.yml`:
 
-   2. Pela instalação individual das dependências necessárias:
+        ```bash
+        conda env create --name dataScience --file ./environment_dataScience.yml
+        ```
 
-      ```bash
-       conda create -n dataScience -c conda-forge python ipykernel jupyter matplotlib numpy pandas SciencePlots seaborn tqdm sqlalchemy
-      ```
+     2. Pela instalação individual das dependências necessárias:
+
+        ```bash
+         conda create -n dataScience -c conda-forge python ipykernel jupyter matplotlib numpy pandas SciencePlots seaborn tqdm sqlalchemy
+        ```
+
+   - Para o Exercício 02:
+
+     1. Via arquivo `.yml`:
+
+        ```bash
+        conda env create --name rEnv --file ./environment_rEnv.yml
+        ```
+
+     2. Pela instalação individual das dependências necessárias:
+
+        ```bash
+        conda create -n rEnv -c conda-forge r-essentials r-base radian jupyter r-irkernel r-rmarkdown
+        ```
 
 ## Uso
 
 Uma vez instaladas as dependências do presente repositório, pode-se navegar e inspecionar cada uma das atividades e exercícios realizados, os quais constam separadamente documentados dentro de seu diretório específico no modelo `EXX`, em que $XX$ se trata do número correspondente à atividade (exemplo: $01$, $02$, ...).
 
 - [E01 - Fluxo de Informação e Análise Visual de Dados](./E01/README.md)
+- [E02 - BH-3 Ensaio de decaimento em ar](./E02/README.md)
 
 ## Créditos
 
